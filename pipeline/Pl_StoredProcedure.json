@@ -1,0 +1,44 @@
+{
+	"name": "Pl_StoredProcedure",
+	"properties": {
+		"activities": [
+			{
+				"name": "Stored procedure1",
+				"type": "SqlServerStoredProcedure",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[spdemoadf].[InsertCustomeradf]",
+					"storedProcedureParameters": {
+						"CustomerID": {
+							"value": "1002",
+							"type": "Int32"
+						},
+						"FirstName": {
+							"value": "Joe",
+							"type": "String"
+						},
+						"LastName": {
+							"value": "Biden",
+							"type": "String"
+						}
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "ls_SqlServer1",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2025-11-04T17:44:14Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

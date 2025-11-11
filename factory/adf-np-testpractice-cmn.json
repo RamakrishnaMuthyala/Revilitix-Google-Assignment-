@@ -1,0 +1,9 @@
+{
+	"name": "adf-np-testpractice-cmn",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a7688b0a-59d6-4d83-816c-7d0c1e503871",
+		"tenantId": "d0fa88dc-718b-4819-b1d1-904c0e0ea52f"
+	}
+}
