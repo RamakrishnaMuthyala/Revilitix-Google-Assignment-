@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-np-testpractice-cmn"
+		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"ls_SqlServer1_password": {
+			"value": ""
+		},
+		"ls_adls_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_adls_datalake2_accountKey": {
+			"value": ""
+		},
+		"ls_SqlServer1_properties_typeProperties_server": {
+			"value": "DESKTOP-QI2VJ85\\SQLEXPRESS"
+		},
+		"ls_SqlServer1_properties_typeProperties_database": {
+			"value": "DB_Sample"
+		},
+		"ls_SqlServer1_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"ls_adls_datalake_properties_typeProperties_url": {
+			"value": "https://sanpindiatestpractice.dfs.core.windows.net/"
+		},
+		"ls_adls_datalake2_properties_typeProperties_url": {
+			"value": "https://stdatalakenpcin.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
